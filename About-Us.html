@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jecrc Website Design</title>
+    <link rel="stylesheet" href="frame1.css">
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="frame.html"><img src="images/logo.JPEG" alt="Loading error"></a>
+        <div class="nav-link" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="frame.html">HOME</a></li>
+              <li><a href="About-Us.html">ABOUT US</a></li>
+              <li><a href="Course.html">COURSE</a></li>
+              <li><a href="Blog.html">BLOG</a></li>
+              <li><a href="contect-us.html">CONTECT US</a></li>
+                
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+     <h1>About Us</h1>
+    </section>
+    <!-- Footer of  website -->
+
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+        <h1>WE are the world's largets university</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Velit omnis quia assumenda nulla eaque. Iusto nulla corrupti
+            itaque perferendis autem eaque facilis quaerat tempora culpa 
+            rerum eius totam dignissimos eadeleniti labore cupiditate delectus esse,
+            possimus consequuntur nihil, suscipit enim!</p>
+           <a href="" class="hero-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="./images/student.JPEG" alt="">
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+    <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur 
+      adipisicing elit. <br>
+      Aspernatur fugiat perspiciatis 
+      obcaecati error, quia iure voluptas <br> ipsam nulla 
+      vero nisi repellat impedit eius </p>
+      <div class="icon">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-linkedin" ></i>
+</div>
+  </section>
+    <!--JavaScript-->
+
+
+    <script>
+      var navlinks=document.getElementById("navlinks");
+      function showMenu(){
+        navlinks.style.right="0";
+      }
+      function hideMenu(){
+        navlinks.style.right="-200px";
+      }
+    </script>
+
+</body>
+
+</html>
